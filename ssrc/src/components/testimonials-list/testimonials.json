@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_testimonials_list_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "testi_cards": {
+      "type": "component",
+      "component": "testimonials-list.testimonials-cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

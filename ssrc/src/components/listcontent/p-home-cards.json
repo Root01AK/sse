@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_listcontent_p_home_cards",
+  "info": {
+    "displayName": "p-home-cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "product_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

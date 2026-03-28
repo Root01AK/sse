@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_serving_areas_servinglists",
+  "info": {
+    "displayName": "Servinglist"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

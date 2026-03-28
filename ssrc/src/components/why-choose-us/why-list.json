@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_why_choose_us_why_lists",
+  "info": {
+    "displayName": "WhyList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

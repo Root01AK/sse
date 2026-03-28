@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_listcontent_home_values",
+  "info": {
+    "displayName": "Home_values"
+  },
+  "options": {},
+  "attributes": {
+    "Value_title": {
+      "type": "string"
+    },
+    "value_description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "listcontent.values-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

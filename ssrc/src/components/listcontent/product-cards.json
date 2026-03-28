@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_listcontent_product_cards",
+  "info": {
+    "displayName": "product-cards"
+  },
+  "options": {},
+  "attributes": {
+    "product_title": {
+      "type": "string"
+    },
+    "product_description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "listcontent.p-home-cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

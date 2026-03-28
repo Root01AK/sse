@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Booking"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "Statuss": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "confirmed",
+        "completed"
+      ]
+    }
+  }
+}

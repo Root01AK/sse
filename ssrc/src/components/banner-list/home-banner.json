@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_banner_list_home_banners",
+  "info": {
+    "displayName": "Home_Banner"
+  },
+  "options": {},
+  "attributes": {
+    "Banner_title": {
+      "type": "text"
+    },
+    "Banner_cta": {
+      "type": "string"
+    },
+    "Banner_description": {
+      "type": "text"
+    },
+    "BannerImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

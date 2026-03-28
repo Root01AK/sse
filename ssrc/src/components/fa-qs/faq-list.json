@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_fa_qs_faq_lists",
+  "info": {
+    "displayName": "FaqList"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "text"
+    },
+    "Answer": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

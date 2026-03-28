@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_specs_specs",
+  "info": {
+    "displayName": "specs"
+  },
+  "options": {},
+  "attributes": {
+    "thickness": {
+      "type": "string"
+    },
+    "sizes": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

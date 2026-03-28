@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "component": "banner-list.home-banner",
+      "repeatable": true
+    },
+    "About_title": {
+      "type": "string"
+    },
+    "About_quote": {
+      "type": "string"
+    },
+    "About_description": {
+      "type": "text"
+    },
+    "about_exp_num": {
+      "type": "string"
+    },
+    "about_exp_decs": {
+      "type": "string"
+    },
+    "about_exp_num_1": {
+      "type": "string"
+    },
+    "about_exp_decs_1": {
+      "type": "string"
+    },
+    "Our_values": {
+      "type": "component",
+      "component": "listcontent.home-values",
+      "repeatable": true
+    },
+    "Our_Products": {
+      "type": "component",
+      "component": "listcontent.product-cards",
+      "repeatable": true
+    },
+    "CTA": {
+      "type": "component",
+      "component": "cta-all-pages.cta",
+      "repeatable": true
+    },
+    "Testimonials": {
+      "type": "component",
+      "component": "testimonials-list.testimonials",
+      "repeatable": true
+    },
+    "Serving_Area": {
+      "type": "component",
+      "component": "serving-areas.serving-area-list",
+      "repeatable": true
+    }
+  }
+}

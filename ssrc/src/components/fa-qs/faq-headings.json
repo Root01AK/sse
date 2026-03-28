@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_fa_qs_faq_headings",
+  "info": {
+    "displayName": "FaqHeadings"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Faq_list": {
+      "type": "component",
+      "component": "fa-qs.faq-list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_why_choose_us_whyuses",
+  "info": {
+    "displayName": "Whyus",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "List": {
+      "type": "component",
+      "component": "why-choose-us.why-list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

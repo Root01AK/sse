@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "AboutUs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AboutTitle": {
+      "type": "string"
+    },
+    "AboutDescription": {
+      "type": "text"
+    },
+    "AboutBanner": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Aboutlist": {
+      "type": "blocks"
+    },
+    "OurCommitmentTitle": {
+      "type": "string"
+    },
+    "OurCommitmentDesc": {
+      "type": "text"
+    },
+    "OurCommitmentImages": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WhyChooseUs": {
+      "type": "component",
+      "component": "why-choose-us.whyus",
+      "repeatable": true
+    },
+    "FAQs": {
+      "type": "component",
+      "component": "fa-qs.faq-headings",
+      "repeatable": true
+    }
+  }
+}

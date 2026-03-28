@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contact_label_Address": {
+      "type": "string"
+    },
+    "contact_label_Name": {
+      "type": "string"
+    },
+    "contact_label_Location": {
+      "type": "string"
+    },
+    "contact_label_Email_Title": {
+      "type": "string"
+    },
+    "contact_label_Email": {
+      "type": "string"
+    },
+    "contact_label_Phone_Title": {
+      "type": "string"
+    },
+    "contact_label_Phone": {
+      "type": "string"
+    },
+    "contact_label_Whatsapp_Title": {
+      "type": "string"
+    },
+    "contact_label_Whatsapp": {
+      "type": "string"
+    },
+    "contact_label_BusinessHours_Title": {
+      "type": "string"
+    },
+    "contact_label_BusinessHours_desc": {
+      "type": "text"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    }
+  }
+}

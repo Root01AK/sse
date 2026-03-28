@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_testimonials_list_testimonials_cards",
+  "info": {
+    "displayName": "testimonials_cards",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

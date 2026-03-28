@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_serving_areas_serving_area_lists",
+  "info": {
+    "displayName": "serving_area_list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "location": {
+      "type": "component",
+      "component": "serving-areas.servinglist",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
